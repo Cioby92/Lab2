@@ -13,10 +13,13 @@ public abstract class Mamifer implements IAnimal {
         System.out.print(specie);
 
     }
-    public void getNrPicioare()
-    {
+
+    public void getNrPicioare() {
         System.out.print(nrPicioare);
     }
+
+    public abstract void getnume();
+
     //ramane de implementat in clasa ce va mosteni aceasta clasa metoda setnume() din interfata IAnimal
 
 
